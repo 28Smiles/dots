@@ -10,7 +10,7 @@ sudo apt install -y alacritty blueman brightnessctl build-essential \
   python-is-python3 remmina suckless-tools \
   swaybg swayidle swaylock sway-notification-center waybar wlogout zsh \
   fonts-font-awesome wl-clipboard grim gnome-core gnome-system-monitor \
-  gnome-text-editor gnome-control-center
+  gnome-text-editor gnome-control-center grimshot
 
 
 pipx install waypaper --global
