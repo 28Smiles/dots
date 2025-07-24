@@ -1,19 +1,19 @@
 #!/bin/sh
 
+sudo add-apt-repository ppa:cppiber/hyprland
+
 sudo apt update && sudo apt upgrade
 
 sudo apt install -y alacritty blueman brightnessctl build-essential \
-  libcairo2-dev libgirepository1.0-dev ffmpeg fzf git grep htop hyprland \
+  libcairo2-dev libgirepository1.0-dev ffmpeg fzf git grep htop \
+  hyprland-unstable hyprland-plugins hyprpaper hyprlock \
   khal neofetch nautilus nano network-manager network-manager-openconnect-gnome \
-  openconnect openvpn pkg-config pipx playerctl pulseaudio \
+  network-manager-applet openconnect openvpn pkg-config pipx playerctl pulseaudio \
   python3 python3-pip python3-venv python3-gi \
   python-is-python3 remmina suckless-tools \
-  swaybg swayidle swaylock sway-notification-center waybar wlogout zsh \
+  swaybg swayidle sway-notification-center waybar wlogout zsh \
   fonts-font-awesome wl-clipboard grim gnome-core gnome-system-monitor \
   gnome-text-editor gnome-control-center grimshot
-
-
-pipx install waypaper --global
 
 sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa
 echo << EOL
