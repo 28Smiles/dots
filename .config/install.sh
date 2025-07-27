@@ -2,6 +2,9 @@
 
 sudo add-apt-repository ppa:cppiber/hyprland
 
+# TODO: This ppa is not needed for Ubuntu 24.10+
+sudo add-apt-repository ppa:ubuntusway-dev/stable
+
 sudo apt update && sudo apt upgrade
 
 sudo apt install -y alacritty blueman brightnessctl build-essential \
@@ -13,7 +16,7 @@ sudo apt install -y alacritty blueman brightnessctl build-essential \
   python-is-python3 remmina suckless-tools \
   swaybg swayidle sway-notification-center waybar wlogout zsh \
   fonts-font-awesome wl-clipboard grim gnome-core gnome-system-monitor \
-  gnome-text-editor gnome-control-center grimshot
+  gnome-text-editor gnome-control-center grimshot nwg-drawer
 
 sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa
 echo << EOL

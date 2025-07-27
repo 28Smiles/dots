@@ -1,7 +1,7 @@
 {
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "battery", "network", "bluetooth", "pulseaudio", "backlight", "custom/power"],
+    "modules-right": ["tray", "battery", "network", "bluetooth", "pulseaudio", "backlight", "idle_inhibitor", "custom/power"],
     "network": {
         "format-wifi": "{essid} ({signalStrength}%) ",
         "format-ethernet": "{ifname} ",
